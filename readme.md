@@ -1,3 +1,16 @@
-A port of the Pre Dawn Sublime Text theme to an Ipython Ntebook near you.
+# Pre Dawn theme for IPython Notebook
 
-To install just place it in your .ipython/profile_name/static/custom/ or append ot your custom.css.
+Custom style sheets for [IPython Notebook][1]
+
+Installation instructions at [Base 16 for IPython Notebook][2]
+
+![screenshot](https://raw.githubusercontent.com/arttii/ipython_predawn/master/screen.png "Screenshot")
+
+## Credits
+
+* Based on modifications to `base16-monokai-dark.css` from [Base 16 for IPython Notebook][2]
+* Color scheme copied from [Pre Dawn][3]
+
+[1]: http://ipython.org/notebook.html
+[2]: https://github.com/nsonnad/base16-ipython-notebook
+[3]: https://github.com/jamiewilson/predawn
