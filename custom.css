@@ -30,7 +30,7 @@ a {color: #01a0e4;}
 div#notebook {border-top: none;}
 
 div.input_prompt {color: #F49D62;}
-div.output_prompt {color: #a16a94;}
+div.output_prompt {color: #01a0e4;}
 div.input_area {
   border-radius: 0px;
   border: 1px solid #4a4543;
@@ -45,7 +45,7 @@ div.output_subarea {font-weight: normal; color: #F49D62;}
 div.output_html { font-family: sans-serif; }
 table.dataframe tr {border: 1px #a5a2a2;}
 
-div.cell.selected {border-radius: 0px; color:#282828;}
+div.cell.selected {border-radius: 0px; color:#232323;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #F49D62;}
 div.text_cell_render, div.output_html {color: #a5a2a2;}
 
@@ -119,6 +119,8 @@ div.output_stderr pre {color: #d6d5d4;}
 
 .container{
   color:#FFF;
+
+  background-color: #282828;
 }
 #menubar .navbar-inner {
 
@@ -155,6 +157,8 @@ div#notebook {
 
 }
 
+
+
 /*#checkpoint_status,
 #autosave_status {
     color: rgba(0,0,0,0.5);
@@ -172,11 +176,55 @@ div#notebook {
     This is a lazy fix, we *should* fix the
     background for each Bootstrap button type
 */
+
+
 #site * .btn {
-    background: #fafafa;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  color: #ffffff;
+  background-color: #282828;
+  border-color: #4C4C4C;
+   background-image: none;
 }
+
+#site * .btn:hover,
+#site * .btn:focus,
+#site * .btn:active,
+#site * .btn.active,
+.open .dropdown-toggle.btn-sample {
+  color: #ffffff;
+  background-color: #4C4C4C;
+  border-color: #4C4C4C;
+}
+
+#site * .btn:active,
+#site * .btn.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+#site * .btn.disabled,
+#site * .btn[disabled],
+fieldset[disabled] .btn-sample,
+#site * #site * .btn .disabled:hover,
+#site * .btn[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+#site * .btn :focus,
+#site * .btn [disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+#site * .btn .disabled:active,
+#site * .btn [disabled]:active,
+fieldset[disabled] .btn-sample:active,
+#site * .btn .disabled.active,
+#site * .btn [disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #282828;
+  border-color: #4C4C4C;
+}
+
+#site * .btn  .badge {
+  color: #282828;
+  background-color: #ffffff;
+}
+
 
 
 @import url('http://fonts.googleapis.com/css?family=Crimson+Text');

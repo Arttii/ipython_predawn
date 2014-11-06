@@ -4,7 +4,7 @@ Custom style sheets for [IPython Notebook][1]
 
 Installation instructions at [Base 16 for IPython Notebook][2]
 
-![screenshot](https://raw.githubusercontent.com/arttii/ipython_predawn/master/screen.png "Screenshot")
+![screenshot](https://raw.githubusercontent.com/Arttii/ipython_predawn/master/screen.png "Screenshot")
 
 ## Credits
 
